@@ -24,6 +24,7 @@ def linear_roots(a=1.0, b=0.0):
     else:
         return ((-b / a))
 
+# begin quad_roots
 def quad_roots(a=1.0, b=2.0, c=0.0):
     """Returns the roots of a quadratic equation: ax^2 + bx + c = 0.
     
