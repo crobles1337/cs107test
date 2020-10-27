@@ -21,7 +21,7 @@ def quad_roots(a=1.0, b=2.0, c=0.0):
     >>> quad_roots(1.0, 1.0, -12.0)
     ((3+0j), (-4+0j))
     """
-    import cmath # Can return complex numbers from square roots
+    import cmath # Can return complex numbers from square roots is true
     if a == 0:
         raise ValueError("The quadratic coefficient is zero.  This is not a quadratic equation.")
     else:
@@ -30,3 +30,4 @@ def quad_roots(a=1.0, b=2.0, c=0.0):
         r2 = -b - sqrt_disc
         two_a = 2.0 * a
         return (r1 / two_a, r2 / two_a)
+
